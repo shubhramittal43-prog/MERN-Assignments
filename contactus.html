@@ -13,27 +13,57 @@
 <div class="container">
 
     <form action="travel.html">
-
         <h2>Get In Touch</h2>
 
-        <input type="text" placeholder="Enter Your Name" required>
+        <table cellpadding="10">
+            <tr>
+                <td><label>Name</label></td>
+                <td>
+                    <input type="text" placeholder="Enter Your Name" required>
+                </td>
+            </tr>
 
-        <input type="email" placeholder="Enter Your Email" required>
+            <tr>
+                <td><label>Email</label></td>
+                <td>
+                    <input type="email" placeholder="Enter Your Email" required>
+                </td>
+            </tr>
 
-        <input type="tel" placeholder="Enter Your Phone Number" required>
+            <tr>
+                <td><label>Phone Number</label></td>
+                <td>
+                    <input type="tel" placeholder="Enter Your Phone Number" required>
+                </td>
+            </tr>
 
-        <select required>
-            <option value="">Select Destination</option>
-            <option>Goa</option>
-            <option>Manali</option>
-            <option>Jaipur</option>
-            <option>Kerala</option>
-            <option>Kashmir</option>
-        </select>
+            <tr>
+                <td><label>Destination</label></td>
+                <td>
+                    <select required>
+                        <option>Select Destination</option>
+                        <option>Goa</option>
+                        <option>Manali</option>
+                        <option>Jaipur</option>
+                        <option>Kerala</option>
+                        <option>Kashmir</option>
+                    </select>
+                </td>
+            </tr>
 
-        <textarea rows="5" placeholder="Your Message"></textarea>
+            <tr>
+                <td><label>Message</label></td>
+                <td>
+                    <textarea rows="5" cols="30" placeholder="Your Message"></textarea>
+                </td>
+            </tr>
 
-        <button type="submit">Submit and Return</button>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Submit and Return</button>
+                </td>
+            </tr>
+        </table>
 
     </form>
 
