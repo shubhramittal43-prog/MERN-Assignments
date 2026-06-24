@@ -1,0 +1,177 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+background-color:#111;
+color:white;
+}
+
+nav{
+background-color:darksalmon;
+padding:15px 40px;
+
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+
+}
+
+.left-nav h2{
+color:black;
+}
+
+.right-nav a{
+text-decoration:none;
+color:black;
+font-size:20px;
+font-weight:bold;
+}
+
+.right-nav a:hover{
+color:white;
+}
+
+.heading{
+text-align:center;
+padding:50px 20px;
+}
+
+.heading h1{
+color:darksalmon;
+font-size:50px;
+margin-bottom:10px;
+}
+
+.heading p{
+font-size:18px;
+}
+
+.project-container{
+
+
+width:90%;
+margin:auto;
+
+display:grid;
+grid-template-columns:repeat(3,1fr);
+
+gap:30px;
+
+padding-bottom:60px;
+
+
+}
+
+.project-card{
+
+
+background-color:#1d1d1d;
+
+border:1px solid darksalmon;
+
+border-radius:15px;
+
+overflow:hidden;
+
+transition:0.5s;
+
+
+}
+
+.project-card:hover{
+
+
+transform:translateY(-10px);
+
+box-shadow:0px 0px 20px darksalmon;
+
+
+}
+
+.project-card img{
+
+
+width:100%;
+
+height:220px;
+
+object-fit:cover;
+
+transition:0.5s;
+
+
+}
+
+.project-card img:hover{
+
+
+transform:scale(1.08);
+
+
+}
+
+.project-card h2{
+
+
+color:darksalmon;
+
+text-align:center;
+
+margin:20px 0;
+
+
+}
+
+.project-card p{
+
+
+padding:0 20px;
+
+line-height:28px;
+
+text-align:center;
+
+margin-bottom:25px;
+
+
+}
+
+.project-card a{
+
+
+display:block;
+
+width:160px;
+
+margin:20px auto;
+
+text-align:center;
+
+text-decoration:none;
+
+background-color:darksalmon;
+
+color:black;
+
+padding:12px;
+
+border-radius:8px;
+
+font-weight:bold;
+
+
+}
+
+.project-card a:hover{
+
+
+background-color:white;
+
+
+}
