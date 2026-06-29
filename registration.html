@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>Create a new account</h1>
+
+<p class="sub">
+It's quick and easy.
+</p>
+
+<hr>
+
+<form id="registerForm">
+
+<div class="row">
+
+<input
+type="text"
+id="fname"
+placeholder="First Name">
+
+<input
+type="text"
+id="lname"
+placeholder="Surname">
+
+</div>
+
+<input
+type="email"
+id="email"
+placeholder="Mobile number or email">
+
+<div class="passwordBox">
+
+<input
+type="password"
+id="password"
+placeholder="New Password">
+
+<span id="toggle">
+👁
+</span>
+
+</div>
+
+<label>Date of Birth</label>
+
+<input
+type="date"
+id="dob">
+
+<label>Gender</label>
+
+<div class="gender">
+
+<label>
+<input
+type="radio"
+name="gender"
+value="Female">
+Female
+</label>
+
+<label>
+<input
+type="radio"
+name="gender"
+value="Male">
+Male
+</label>
+
+<label>
+<input
+type="radio"
+name="gender"
+value="Custom">
+Custom
+</label>
+
+</div>
+
+<button type="submit" id="createBtn">
+Sign Up
+</button>
+
+</form>
+
+<p id="message"></p>
+
+</div>
+
+</div>
+
+<script src="registration.js"></script>
+
+</body>
+</html>
